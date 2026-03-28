@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+
+.glass {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.glow-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #22c55e;
+}
+
+.btn {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #22c55e;
+  color: white;
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+/* Chatbot */
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+  background: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.chat-header {
+  background: #22c55e;
+  padding: 10px;
+}
+
+.chat-body {
+  height: 150px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
